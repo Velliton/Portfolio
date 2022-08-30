@@ -5,7 +5,7 @@
    --header-height: 3rem;
 
    /*выбираем любимый цвет 142-зелёный*/
-   --hue-color: 250;
+   --hue-color: 220;
 
 
    --first-color: hsl(var(--hue-color), 69%, 61%);
