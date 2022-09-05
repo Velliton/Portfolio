@@ -310,7 +310,10 @@ img{
 }
 .home__description{
    margin-bottom: var(--mb-2); 
+   
 }
+
+p.home__description{}
 
 
 .home__scroll{
@@ -488,7 +491,9 @@ img{
    background-color: var(--first-color);
    display: block;
 }
-
+.skills__sass{
+   width: 80%;
+}
 .skills__html{
    width: 90%;
 }
@@ -498,24 +503,27 @@ img{
 .skills__js{
    width: 65%;
 }
+.skills__react{
+   width: 50%;
+}
 
-.skills__php{
+.skills__vs{
    width: 80%;
 }
-.skills__nodejs{
+.skills__eng{
    width: 70%;
 }
 
-.skills__firebase{
+.skills__bem{
    width: 90%;
 }
 
-.skills__python{
-   width: 55%;
+.skills__git{
+   width: 80%;
 }
 
 .skills__figma{
-   width: 90%;
+   width: 80%;
 }
 
 .skills__sketch{
@@ -610,9 +618,12 @@ color: var(--first-color);
 /*services*/
 .services__container{
    gap: 1.5rem;
-   grid-template-columns: repeat(2,1fr);
+   grid-template-columns: repeat(1,200px);
+   justify-content: center;
 }
+
 .services__content{ 
+   
    position: relative;
    background-color: var(--container-color);
    padding: 3.5rem .5rem 1.25rem 1.5rem;
@@ -708,6 +719,7 @@ color: var(--first-color);
 }
 .portfolio__img{
    width: 265px;
+   max-height: 220px;
    border-radius: .5rem;
    justify-self: center;
 }
@@ -1105,7 +1117,7 @@ color: var(--first-color);
       grid-template-columns: .5fr;
    }
    .services__container{
-      grid-template-columns: repeat(3, 218px);
+      grid-template-columns: repeat(1, 218px);
       justify-content: center;
    }
    .services__icon{
@@ -1172,7 +1184,7 @@ color: var(--first-color);
       transform: translateX(-6rem);
    }
    .services__container{
-      grid-template-columns: repeat(3,238px);
+      grid-template-columns: repeat(1,238px);
    }
    .portfolio__content{
       column-gap: 5rem;
