@@ -618,8 +618,7 @@ color: var(--first-color);
 /*services*/
 .services__container{
    gap: 1.5rem;
-   grid-template-columns: repeat(1,200px);
-   justify-content: center;
+   grid-template-columns: repeat(2,1fr);
 }
 
 .services__content{ 
@@ -1117,7 +1116,7 @@ color: var(--first-color);
       grid-template-columns: .5fr;
    }
    .services__container{
-      grid-template-columns: repeat(1, 218px);
+      grid-template-columns: repeat(2, 218px);
       justify-content: center;
    }
    .services__icon{
@@ -1184,7 +1183,7 @@ color: var(--first-color);
       transform: translateX(-6rem);
    }
    .services__container{
-      grid-template-columns: repeat(1,238px);
+      grid-template-columns: repeat(2,238px);
    }
    .portfolio__content{
       column-gap: 5rem;
